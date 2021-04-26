@@ -1,0 +1,108 @@
+		
+div{
+	border: 1px solid black;
+	background: white;
+	width: 1000px;
+	margin-left:100px ;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #464646;
+	
+	
+}
+
+ li{
+    float: right;
+	margin-top: 2%;
+	margin-right: 7px;
+}
+
+ li a{
+      display: block;
+      color: #FFFFFF;
+      text-align: right;
+      padding: 14px 16px;
+      text-decoration: none;
+     font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	 
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+section{
+	width: 95%;
+	margin: 20px;
+	float: left;
+}
+
+aside{
+	width: 19%;
+	float: left;
+	border: 1px solid black;
+	margin: 30px -330px;
+	text-align: center;
+	padding-bottom: 5px;
+	background: #FFFFFF;
+}
+
+footer{
+	clear: left;
+	text-align: center;
+	background: #464646;
+	color: #FFFFFF;
+}
+
+
+.logo{
+	height: 7%;
+    width: 7%;
+	margin-left: 150px;
+}
+
+.ima_pag1{
+	height: 47%;
+    width: 47%;
+	
+}
+
+.derecha{
+	height: 47%;
+    width: 47%;
+}
+
+section,aside,footer,nav{
+
+	display: block;
+}
+
+
+.red{
+	height: 47%;
+    width: 47%;
+}
+
+#int{
+	height: 43%;
+    width: 43%;
+}
+.img_tienda{
+	height: 43%;
+    width: 83%;
+}
+
+body{
+	background: #1A1A1A;
+}
+
+*{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
